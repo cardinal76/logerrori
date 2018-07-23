@@ -18,11 +18,18 @@ package it.cardinali.log.errori;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SampleDataRestApplication {
-
+public class LogErrorsDataRestApplication extends SpringBootServletInitializer{
+    
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(LogErrorsDataRestApplication.class);
+    }
+	
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(SampleDataRestApplication.class, args);
+		SpringApplication.run(LogErrorsDataRestApplication.class, args);
 	}
 }
