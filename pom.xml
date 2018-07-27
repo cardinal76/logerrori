@@ -79,10 +79,10 @@
 	 	<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+<!-- 				<configuration>
 			        <finalName>${rp.build.warname}</finalName>
-<!--			        <failOnMissingWebXml>false</failOnMissingWebXml> -->	
-			    </configuration>
+			        <failOnMissingWebXml>false</failOnMissingWebXml>	
+			    </configuration> -->
 			</plugin>
 	<!--
 			<plugin>

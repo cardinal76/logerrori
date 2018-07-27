@@ -1,0 +1,223 @@
+2018-07-27 17:14:12 - Starting LogErrorsDataRestApplication on NBRM0071 with PID 16364 (C:\Users\Prisma\git\errori\errori\target\classes started by Prisma in C:\Users\Prisma\git\errori\errori)
+2018-07-27 17:14:12 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:14:12 - No active profile set, falling back to default profiles: default
+2018-07-27 17:14:14 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-27 17:14:14 - Starting service [Tomcat]
+2018-07-27 17:14:14 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-07-27 17:14:14 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Users\Prisma\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Prisma\.m2\istallazioni\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Prisma\instantclient_12_2;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Users\Prisma\AppData\Local\GitHubDesktop\bin;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Prisma\AppData\Local\Yarn\bin;C:\Users\Prisma\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;C:\WINDOWS\System32;;.]
+2018-07-27 17:14:14 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-27 17:14:14 - Initializing Spring embedded WebApplicationContext
+2018-07-27 17:14:15 - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthEndpoint]: Factory method 'healthEndpoint' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$54ad54f]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-07-27 17:14:15 - Stopping service [Tomcat]
+2018-07-27 17:14:15 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2018-07-27 17:16:05 - Starting LogErrorsDataRestApplication on NBRM0071 with PID 13868 (C:\Users\Prisma\git\errori\errori\target\classes started by Prisma in C:\Users\Prisma\git\errori\errori)
+2018-07-27 17:16:05 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:16:05 - No active profile set, falling back to default profiles: default
+2018-07-27 17:16:06 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-27 17:16:06 - Starting service [Tomcat]
+2018-07-27 17:16:06 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-07-27 17:16:06 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Users\Prisma\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Prisma\.m2\istallazioni\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Prisma\instantclient_12_2;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Users\Prisma\AppData\Local\GitHubDesktop\bin;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Prisma\AppData\Local\Yarn\bin;C:\Users\Prisma\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;C:\WINDOWS\System32;;.]
+2018-07-27 17:16:07 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-27 17:16:07 - Initializing Spring embedded WebApplicationContext
+2018-07-27 17:16:07 - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthEndpoint]: Factory method 'healthEndpoint' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$8451fb43]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-07-27 17:16:07 - Stopping service [Tomcat]
+2018-07-27 17:16:07 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2018-07-27 17:16:35 - Loaded expression factory via original TCCL
+2018-07-27 17:16:35 - Starting LogErrorsDataRestApplication on NBRM0071 with PID 12764 (C:\Users\Prisma\git\errori\errori\target\classes started by Prisma in C:\Users\Prisma\git\errori\errori)
+2018-07-27 17:16:35 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:16:35 - The following profiles are active: dev
+2018-07-27 17:16:37 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-27 17:16:37 - Starting service [Tomcat]
+2018-07-27 17:16:37 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-07-27 17:16:37 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Users\Prisma\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Prisma\.m2\istallazioni\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Prisma\instantclient_12_2;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Users\Prisma\AppData\Local\GitHubDesktop\bin;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Prisma\AppData\Local\Yarn\bin;C:\Users\Prisma\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;C:\WINDOWS\System32;;.]
+2018-07-27 17:16:37 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-27 17:16:37 - Initializing Spring embedded WebApplicationContext
+2018-07-27 17:16:38 - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthEndpoint]: Factory method 'healthEndpoint' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$ed15d80f]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-07-27 17:16:38 - Stopping service [Tomcat]
+2018-07-27 17:16:38 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2018-07-27 17:22:37 - Starting LogErrorsDataRestApplication on NBRM0071 with PID 3560 (C:\Users\Prisma\git\errori\errori\target\classes started by Prisma in C:\Users\Prisma\git\errori\errori)
+2018-07-27 17:22:37 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:22:37 - The following profiles are active: dev
+2018-07-27 17:22:39 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-27 17:22:39 - Starting service [Tomcat]
+2018-07-27 17:22:39 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-07-27 17:22:39 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Users\Prisma\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Prisma\.m2\istallazioni\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Prisma\instantclient_12_2;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Users\Prisma\AppData\Local\GitHubDesktop\bin;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Prisma\AppData\Local\Yarn\bin;C:\Users\Prisma\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;C:\WINDOWS\System32;;.]
+2018-07-27 17:22:39 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-27 17:22:39 - Initializing Spring embedded WebApplicationContext
+2018-07-27 17:22:39 - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@2a139a55
+
+2018-07-27 17:22:40 - HikariPool-1 - configuration:
+2018-07-27 17:22:40 - allowPoolSuspension.............false
+2018-07-27 17:22:40 - autoCommit......................true
+2018-07-27 17:22:40 - catalog.........................none
+2018-07-27 17:22:40 - connectionInitSql...............none
+2018-07-27 17:22:40 - connectionTestQuery.............none
+2018-07-27 17:22:40 - connectionTimeout...............30000
+2018-07-27 17:22:40 - dataSource......................none
+2018-07-27 17:22:40 - dataSourceClassName.............none
+2018-07-27 17:22:40 - dataSourceJNDI..................none
+2018-07-27 17:22:40 - dataSourceProperties............{password=<masked>}
+2018-07-27 17:22:40 - driverClassName................."com.mysql.jdbc.Driver"
+2018-07-27 17:22:40 - healthCheckProperties...........{}
+2018-07-27 17:22:40 - healthCheckRegistry.............none
+2018-07-27 17:22:40 - idleTimeout.....................600000
+2018-07-27 17:22:40 - initializationFailFast..........true
+2018-07-27 17:22:40 - initializationFailTimeout.......1
+2018-07-27 17:22:40 - isolateInternalQueries..........false
+2018-07-27 17:22:40 - jdbc4ConnectionTest.............false
+2018-07-27 17:22:40 - jdbcUrl.........................jdbc:mysql://db.cercamister.it:3306/errori
+2018-07-27 17:22:40 - leakDetectionThreshold..........0
+2018-07-27 17:22:40 - maxLifetime.....................1800000
+2018-07-27 17:22:40 - maximumPoolSize.................10
+2018-07-27 17:22:40 - metricRegistry..................none
+2018-07-27 17:22:40 - metricsTrackerFactory...........com.zaxxer.hikari.metrics.micrometer.MicrometerMetricsTrackerFactory@314ed053
+2018-07-27 17:22:40 - minimumIdle.....................10
+2018-07-27 17:22:40 - password........................<masked>
+2018-07-27 17:22:40 - poolName........................"HikariPool-1"
+2018-07-27 17:22:40 - readOnly........................false
+2018-07-27 17:22:40 - registerMbeans..................false
+2018-07-27 17:22:40 - scheduledExecutor...............none
+2018-07-27 17:22:40 - scheduledExecutorService........internal
+2018-07-27 17:22:40 - schema..........................none
+2018-07-27 17:22:40 - threadFactory...................internal
+2018-07-27 17:22:40 - transactionIsolation............default
+2018-07-27 17:22:40 - username........................"root"
+2018-07-27 17:22:40 - validationTimeout...............5000
+2018-07-27 17:22:40 - HikariPool-1 - Starting...
+2018-07-27 17:22:41 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@408b87aa
+2018-07-27 17:22:41 - HikariPool-1 - Start completed.
+2018-07-27 17:22:41 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2018-07-27 17:22:41 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@65b42340
+2018-07-27 17:22:42 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@115cd090
+2018-07-27 17:22:42 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@291df034
+2018-07-27 17:22:43 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@9b122b6
+2018-07-27 17:22:43 - Starting ProtocolHandler ["http-nio-8080"]
+2018-07-27 17:22:43 - Using a shared selector for servlet write/read
+2018-07-27 17:22:43 - Started LogErrorsDataRestApplication in 6.501 seconds (JVM running for 6.985)
+2018-07-27 17:22:43 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6fabbc9e
+2018-07-27 17:22:43 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4c8b51a3
+2018-07-27 17:22:44 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5ee2bbac
+2018-07-27 17:22:44 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@240da0e7
+2018-07-27 17:22:44 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@25358e8f
+2018-07-27 17:22:44 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2018-07-27 17:23:11 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2018-07-27 17:23:30 - Starting LogErrorsDataRestApplication on NBRM0071 with PID 14064 (C:\Users\Prisma\git\errori\errori\target\classes started by Prisma in C:\Users\Prisma\git\errori\errori)
+2018-07-27 17:23:30 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:23:30 - The following profiles are active: dev
+2018-07-27 17:23:32 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-27 17:23:32 - Starting service [Tomcat]
+2018-07-27 17:23:32 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-07-27 17:23:32 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Users\Prisma\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Prisma\.m2\istallazioni\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Prisma\instantclient_12_2;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Users\Prisma\AppData\Local\GitHubDesktop\bin;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Prisma\AppData\Local\Yarn\bin;C:\Users\Prisma\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;C:\WINDOWS\System32;;.]
+2018-07-27 17:23:32 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-27 17:23:32 - Initializing Spring embedded WebApplicationContext
+2018-07-27 17:23:32 - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@2a139a55
+
+2018-07-27 17:23:33 - HikariPool-1 - configuration:
+2018-07-27 17:23:33 - allowPoolSuspension.............false
+2018-07-27 17:23:33 - autoCommit......................true
+2018-07-27 17:23:33 - catalog.........................none
+2018-07-27 17:23:33 - connectionInitSql...............none
+2018-07-27 17:23:33 - connectionTestQuery.............none
+2018-07-27 17:23:33 - connectionTimeout...............30000
+2018-07-27 17:23:33 - dataSource......................none
+2018-07-27 17:23:33 - dataSourceClassName.............none
+2018-07-27 17:23:33 - dataSourceJNDI..................none
+2018-07-27 17:23:33 - dataSourceProperties............{password=<masked>}
+2018-07-27 17:23:33 - driverClassName................."com.mysql.jdbc.Driver"
+2018-07-27 17:23:33 - healthCheckProperties...........{}
+2018-07-27 17:23:33 - healthCheckRegistry.............none
+2018-07-27 17:23:33 - idleTimeout.....................600000
+2018-07-27 17:23:33 - initializationFailFast..........true
+2018-07-27 17:23:33 - initializationFailTimeout.......1
+2018-07-27 17:23:33 - isolateInternalQueries..........false
+2018-07-27 17:23:33 - jdbc4ConnectionTest.............false
+2018-07-27 17:23:33 - jdbcUrl.........................jdbc:mysql://db.cercamister.it:3306/errori
+2018-07-27 17:23:33 - leakDetectionThreshold..........0
+2018-07-27 17:23:33 - maxLifetime.....................1800000
+2018-07-27 17:23:33 - maximumPoolSize.................2
+2018-07-27 17:23:33 - metricRegistry..................none
+2018-07-27 17:23:33 - metricsTrackerFactory...........com.zaxxer.hikari.metrics.micrometer.MicrometerMetricsTrackerFactory@15dd5ac2
+2018-07-27 17:23:33 - minimumIdle.....................2
+2018-07-27 17:23:33 - password........................<masked>
+2018-07-27 17:23:33 - poolName........................"HikariPool-1"
+2018-07-27 17:23:33 - readOnly........................false
+2018-07-27 17:23:33 - registerMbeans..................false
+2018-07-27 17:23:33 - scheduledExecutor...............none
+2018-07-27 17:23:33 - scheduledExecutorService........internal
+2018-07-27 17:23:33 - schema..........................none
+2018-07-27 17:23:33 - threadFactory...................internal
+2018-07-27 17:23:33 - transactionIsolation............default
+2018-07-27 17:23:33 - username........................"root"
+2018-07-27 17:23:33 - validationTimeout...............5000
+2018-07-27 17:23:33 - HikariPool-1 - Starting...
+2018-07-27 17:23:34 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@344426bf
+2018-07-27 17:23:34 - HikariPool-1 - Start completed.
+2018-07-27 17:23:34 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2018-07-27 17:23:34 - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4ad09c08
+2018-07-27 17:23:34 - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2018-07-27 17:23:36 - Starting ProtocolHandler ["http-nio-8080"]
+2018-07-27 17:23:36 - Using a shared selector for servlet write/read
+2018-07-27 17:23:36 - Started LogErrorsDataRestApplication in 6.287 seconds (JVM running for 6.768)
+2018-07-27 17:24:04 - HikariPool-1 - Pool stats (total=2, active=0, idle=2, waiting=0)

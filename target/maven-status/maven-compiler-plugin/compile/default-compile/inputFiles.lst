@@ -1,7 +1,8 @@
-C:\Users\Prisma\progettiTest\errori\src\main\java\it\cardinali\log\errori\domain\LogError.java
-C:\Users\Prisma\progettiTest\errori\src\main\java\it\cardinali\log\errori\service\LogErrorService.java
-C:\Users\Prisma\progettiTest\errori\src\main\java\it\cardinali\log\errori\controller\LogErrorController.java
-C:\Users\Prisma\progettiTest\errori\src\main\java\it\cardinali\log\errori\repository\LogErrorRepository.java
-C:\Users\Prisma\progettiTest\errori\src\main\java\it\cardinali\log\errori\service\package-info.java
-C:\Users\Prisma\progettiTest\errori\src\main\java\it\cardinali\log\errori\SampleDataRestApplication.java
-C:\Users\Prisma\progettiTest\errori\src\main\java\it\cardinali\log\errori\controller\TestController.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\LogErrorsDataRestApplication.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\domain\LogError.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\controller\actuator\IsAlive.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\service\LogErrorService.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\controller\LogErrorController.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\configuration\AppConfiguration.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\repository\LogErrorRepository.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\service\package-info.java

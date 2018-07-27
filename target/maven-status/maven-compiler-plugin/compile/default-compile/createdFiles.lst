@@ -1,0 +1,7 @@
+it\errori\controller\LogErrorController.class
+it\errori\repository\LogErrorRepository.class
+it\errori\service\LogErrorService.class
+it\errori\configuration\AppConfiguration.class
+it\errori\controller\actuator\IsAlive.class
+it\errori\LogErrorsDataRestApplication.class
+it\errori\domain\LogError.class
