@@ -1,9 +1,9 @@
-package it.errori.repository;
+package it.cercamister.repository;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
-import it.errori.domain.LogError;
+import it.cercamister.domain.LogError;
 
 @Repository
 public interface LogErrorRepository extends PagingAndSortingRepository<LogError, Long> {

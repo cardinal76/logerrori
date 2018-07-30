@@ -1,4 +1,4 @@
-package it.errori.controller;
+package it.cercamister.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import it.errori.service.LogErrorService;
+import it.cercamister.service.LogErrorService;
 
 @RestController
 public class LogErrorController {

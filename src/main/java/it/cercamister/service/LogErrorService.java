@@ -1,10 +1,10 @@
-package it.errori.service;
+package it.cercamister.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import it.errori.domain.LogError;
-import it.errori.repository.LogErrorRepository;
+import it.cercamister.domain.LogError;
+import it.cercamister.repository.LogErrorRepository;
 
 @Service
 public class LogErrorService {

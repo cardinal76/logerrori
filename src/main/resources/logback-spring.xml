@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-
-
-	<property name="DEV_HOME" value="../logs/" />
-	
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<layout class="ch.qos.logback.classic.PatternLayout">
 			<Pattern>
@@ -15,7 +11,7 @@
 	
 	<appender name="FILE"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>${DEV_HOME}/errors.log</file>
+		<file>${LOG_PATH}/errors.log</file>
 		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 			<Pattern>
 				%d{yyyy-MM-dd HH:mm:ss} - %msg%n
@@ -24,7 +20,7 @@
 
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!-- rollover daily -->
-			<fileNamePattern>${DEV_HOME}/errors.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<fileNamePattern>${LOG_PATH}/errors.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy
 				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
 				<maxFileSize>5MB</maxFileSize>
@@ -38,7 +34,7 @@
 		<appender-ref ref="FILE" />
 	</root>
 
-	<logger name="it.cardinali" level="DEBUG" additivity="false">
+	<logger name="it.cercamister" level="DEBUG" additivity="false">
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="FILE" />
 	</logger>
@@ -48,7 +44,7 @@
 		<appender-ref ref="FILE" />
 	</logger>
 
-	<logger name="org.springframework" level="ERROR" additivity="false">
+	<logger name="org.springframework" level="INFO" additivity="false">
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="FILE" />
 	</logger>

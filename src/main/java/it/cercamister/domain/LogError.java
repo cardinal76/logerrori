@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package it.errori.domain;
+package it.cercamister.domain;
 
 import java.io.Serializable;
 

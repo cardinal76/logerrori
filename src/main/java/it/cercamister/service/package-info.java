@@ -5,4 +5,4 @@
  * @author Marco Cardinali
  *
  */
-package it.errori.service;
+package it.cercamister.service;

@@ -12,7 +12,7 @@
 	<name>Errori</name>
 	<description>Applicazione rest per loggare gli errori sul db</description>
 	<version>0.0.1.RELEASE</version>
-	<packaging>war</packaging>
+<!-- 	<packaging>war</packaging> -->
 	<url>http://projects.spring.io/spring-boot/</url>
 	<organization>
 		<name>Pivotal Software, Inc.</name>
@@ -23,7 +23,7 @@
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<rp.build.warname>errori</rp.build.warname>
-		<start-class>it.cardinali.log.errori.LogErrorsDataRestApplication</start-class>
+		<start-class>it.cercamister.LogErrorsDataRestApplication</start-class>
 	</properties>
 	<dependencies>
 		 <dependency>

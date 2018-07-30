@@ -1,8 +1,8 @@
-C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\LogErrorsDataRestApplication.java
-C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\domain\LogError.java
-C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\controller\actuator\IsAlive.java
-C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\service\LogErrorService.java
-C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\controller\LogErrorController.java
-C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\configuration\AppConfiguration.java
-C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\repository\LogErrorRepository.java
-C:\Users\Prisma\git\errori\errori\src\main\java\it\errori\service\package-info.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\cercamister\configuration\AppConfiguration.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\cercamister\service\package-info.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\cercamister\controller\actuator\IsAlive.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\cercamister\repository\LogErrorRepository.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\cercamister\domain\LogError.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\cercamister\service\LogErrorService.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\cercamister\controller\LogErrorController.java
+C:\Users\Prisma\git\errori\errori\src\main\java\it\cercamister\LogErrorsDataRestApplication.java
